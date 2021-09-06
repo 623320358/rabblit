@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    name: akwfy
+    url: jdbc:mysql://106.14.56.68:3306/akwfy
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.demo.bean
